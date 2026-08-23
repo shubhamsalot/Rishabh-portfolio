@@ -17,7 +17,7 @@ export const Projects: React.FC<ProjectsProps> = ({ onOpenBooking }) => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   return (
-    <section id="work" className="relative py-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-20">
+    <section id="work" className="relative py-20 md:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-20">
       {/* Background Glow */}
       <div className="red-ambient-spot w-[550px] h-[550px] bg-brand-red top-1/4 -left-32 blur-[160px]" />
 

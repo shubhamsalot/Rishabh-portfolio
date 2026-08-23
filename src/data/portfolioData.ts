@@ -52,26 +52,29 @@ export interface FAQItem {
 
 export const portfolioData = {
   designer: {
-    name: "Rishab P.",
-    initials: "RP",
-    shortName: "Rishab",
+    name: "Rishabh",
+    initials: "R",
+    shortName: "Rishabh",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&h=400&q=80",
     aboutPhoto: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&h=900&q=85",
-    title: "Brand Designer | Visual Communicator | UI UX Learner",
-    location: "Available Globally / Remote",
+    title: "Website Developer | Brand Designer | UI UX Learner",
+    location: "India • Available Worldwide",
     status: "Available for new projects (2026)",
-    tagline: "I help brands turn ideas into structured, meaningful experiences.",
-    email: "rishabdesigns@gmail.com",
-    calendarUrl: "https://cal.com/rishab-designer/30min",
+    tagline: "Helping Startups & Brands build modern websites and structured, meaningful experiences.",
+    email: "ris3habh@gmail.com",
+    phone: "7011378361",
+    phoneDisplay: "+91 7011378361",
+    calendarUrl: "https://cal.com/rishabh-designer/30min",
+    portfolioStudioUrl: "https://tinyurl.com/rishabh-portfolio-studio",
     experienceYears: "5+",
     happyClients: "99+",
     projectsCompleted: "120+",
     socialLinks: {
-      instagram: "https://instagram.com/rishab.designs",
-      linkedin: "https://linkedin.com/in/rishab-designs",
-      behance: "https://behance.net/rishabp",
-      twitter: "https://twitter.com/rishab_des",
-      dribbble: "https://dribbble.com/rishab"
+      instagram: "https://www.instagram.com/rishabh_developss/",
+      linkedin: "https://linkedin.com/in/rishabh-developer",
+      behance: "https://behance.net/rishabh",
+      twitter: "https://twitter.com/rishabh_dev",
+      dribbble: "https://dribbble.com/rishabh"
     }
   },
 
@@ -170,7 +173,7 @@ export const portfolioData = {
   ],
 
   floatingTestimonial: {
-    quote: "“Rishab’s approach is structured. He focuses on clarity before design, and that reflects in every detail. Nothing felt random.”",
+    quote: "“Rishabh’s approach is structured. He focuses on clarity before design, and that reflects in every detail. Nothing felt random.”",
     name: "Phillip B.",
     title: "CTO of INnUP",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&h=120&q=80"
@@ -358,7 +361,7 @@ export const portfolioData = {
     },
     {
       id: "t7",
-      quote: "Rishab delivered a complete brand identity that perfectly aligned with our goals. From logo design to brand assets, every element felt intentional and polished.",
+      quote: "Rishabh delivered a complete brand identity that perfectly aligned with our goals. From logo design to brand assets, every element felt intentional and polished.",
       name: "Jake Mallard",
       role: "Marketing",
       company: "Kora",

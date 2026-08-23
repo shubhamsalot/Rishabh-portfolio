@@ -8,7 +8,7 @@ export const Testimonials: React.FC = () => {
   const marqueeList = [...portfolioData.testimonials, ...portfolioData.testimonials];
 
   return (
-    <section id="testimonials" className="relative py-28 overflow-hidden scroll-mt-20">
+    <section id="testimonials" className="relative py-20 md:py-24 overflow-hidden scroll-mt-20">
       {/* Background Glow */}
       <div className="ambient-glow w-[500px] h-[500px] bg-brand-red/5 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-[130px]" />
 

@@ -165,7 +165,7 @@ const ServiceCardItem: React.FC<ServiceCardItemProps> = ({
 
 export const Services: React.FC<ServicesProps> = ({ onOpenBooking }) => {
   return (
-    <section id="services" className="relative pt-28 pb-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-20">
+    <section id="services" className="relative pt-20 pb-12 md:pt-24 md:pb-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-20">
       {/* Background Ambient Glow */}
       <div className="red-ambient-spot w-[650px] h-[650px] bg-brand-red top-1/4 left-1/2 -translate-x-1/2 blur-[180px]" />
 

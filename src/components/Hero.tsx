@@ -9,7 +9,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
   return (
-    <section className="relative min-h-[92vh] pt-36 pb-20 md:pt-44 md:pb-28 flex flex-col justify-center items-center overflow-hidden px-4 sm:px-6 lg:px-8">
+    <section className="relative pt-32 pb-8 sm:pt-40 sm:pb-12 flex flex-col items-center overflow-hidden px-4 sm:px-6 lg:px-8">
       {/* Background Red Ambient Glows */}
       <div className="red-ambient-spot w-[600px] h-[600px] bg-brand-red top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 blur-[160px]" />
       <div className="red-ambient-spot w-[350px] h-[350px] bg-brand-red bottom-10 right-10 blur-[130px]" />
@@ -111,7 +111,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.7 }}
-          className="mt-20 w-full pt-10 border-t border-white/5"
+          className="mt-12 sm:mt-14 w-full pt-8 border-t border-white/5"
         >
           <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12 md:gap-14 opacity-50 hover:opacity-100 transition-opacity duration-300">
             {portfolioData.clientBrands.map((brand) => (

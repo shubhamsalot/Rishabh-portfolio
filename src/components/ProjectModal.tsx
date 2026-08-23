@@ -165,7 +165,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose, on
             <div className="p-6 rounded-2xl bg-gradient-to-r from-brand-red/20 via-[#181818] to-[#181818] border border-brand-red/40 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div>
                 <p className="text-base font-bold text-white">Need high-impact design for your brand?</p>
-                <p className="text-xs text-neutral-300">Book a quick discovery call with Rishab P. to discuss your timeline.</p>
+                <p className="text-xs text-neutral-300">Book a quick discovery call with Rishabh to discuss your timeline.</p>
               </div>
               <button
                 onClick={() => {
@@ -174,7 +174,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose, on
                 }}
                 className="w-full sm:w-auto px-7 py-3.5 rounded-full bg-brand-red hover:bg-brand-red-hover text-white text-xs font-bold transition-all duration-200 flex items-center justify-center gap-2 shadow-xl shadow-brand-red/30 shrink-0"
               >
-                <span>Book a Call with Rishab</span>
+                <span>Book a Call with Rishabh</span>
                 <ArrowUpRight className="w-4 h-4" />
               </button>
             </div>

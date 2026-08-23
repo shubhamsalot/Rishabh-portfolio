@@ -36,11 +36,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
             : 'bg-[#141414]/70 backdrop-blur-md border border-white/10 py-3.5 px-6'
         } flex items-center justify-between`}
       >
-        {/* Left: Avatar + Name "Rishab P." */}
+        {/* Left: Avatar + Name "Rishabh" */}
         <a
           href="#"
           className="flex items-center gap-3 group focus:outline-none"
-          aria-label="Rishab P. - Homepage"
+          aria-label="Rishabh - Homepage"
         >
           <div className="relative">
             <img

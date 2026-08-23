@@ -15,7 +15,7 @@ export const FAQ: React.FC<FAQProps> = ({ onOpenBooking }) => {
   };
 
   return (
-    <section id="faq" className="relative py-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-20">
+    <section id="faq" className="relative py-20 md:py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto scroll-mt-20">
       {/* Section Header */}
       <div className="flex items-center justify-between gap-4 mb-16 flex-wrap">
         <div className="flex items-center gap-3">
@@ -28,7 +28,7 @@ export const FAQ: React.FC<FAQProps> = ({ onOpenBooking }) => {
             FAQs
           </motion.h2>
 
-          {/* Small Avatar Chip labeled "Rishab P." */}
+          {/* Small Avatar Chip labeled "Rishabh" */}
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#18171A] border border-white/10 shadow-md">
             <img
               src={portfolioData.designer.avatar}

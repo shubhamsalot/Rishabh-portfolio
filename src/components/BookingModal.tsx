@@ -91,7 +91,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({ isOpen, onClose }) =
                 <h3 className="text-xl sm:text-2xl font-bold font-display uppercase tracking-tight text-white flex items-center gap-2">
                   <span>Start a Project</span>
                   <span className="text-xs px-2 py-0.5 rounded-full bg-brand-red/20 text-brand-red font-sans font-semibold">
-                    with Rishab
+                    with Rishabh
                   </span>
                 </h3>
                 <p className="text-xs text-neutral-400">
@@ -144,10 +144,10 @@ export const BookingModal: React.FC<BookingModalProps> = ({ isOpen, onClose }) =
                   <CheckCircle className="w-8 h-8" />
                 </div>
                 <h4 className="text-2xl sm:text-3xl font-bold font-display text-white uppercase">
-                  Brief Received by Rishab!
+                  Brief Received by Rishabh!
                 </h4>
                 <p className="text-sm text-neutral-300 max-w-md mx-auto leading-relaxed">
-                  Thank you for reaching out! Rishab will personally review your brief and get back to you at <span className="text-brand-red font-semibold">{form.email || 'your email'}</span> within 24 hours with next steps.
+                  Thank you for reaching out! Rishabh will personally review your brief and get back to you at <span className="text-brand-red font-semibold">{form.email || 'your email'}</span> within 24 hours with next steps.
                 </p>
                 <div className="pt-4">
                   <button
@@ -247,7 +247,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({ isOpen, onClose }) =
                     className="w-full py-4 rounded-full bg-brand-red hover:bg-brand-red-hover text-white font-bold text-sm transition-all duration-200 shadow-xl shadow-brand-red/30 flex items-center justify-center gap-2"
                   >
                     <Send className="w-4 h-4" />
-                    <span>Send Project Brief to Rishab</span>
+                    <span>Send Project Brief to Rishabh</span>
                   </button>
                 </div>
               </form>
@@ -257,7 +257,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({ isOpen, onClose }) =
                 <div className="p-6 rounded-2xl bg-[#181818] border border-white/10 space-y-4">
                   <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-red/15 text-brand-red text-xs font-semibold">
                     <Clock className="w-3.5 h-3.5" />
-                    <span>20-Minute Video Call with Rishab P.</span>
+                    <span>20-Minute Video Call with Rishabh</span>
                   </div>
 
                   <h4 className="text-xl font-bold text-white">
