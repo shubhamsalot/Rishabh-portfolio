@@ -1,3 +1,5 @@
+import rishabhPhoto from '../assets/rishabh.jpg';
+
 export interface Project {
   id: string;
   title: string;
@@ -55,8 +57,8 @@ export const portfolioData = {
     name: "Rishabh",
     initials: "R",
     shortName: "Rishabh",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&h=400&q=80",
-    aboutPhoto: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&h=900&q=85",
+    avatar: rishabhPhoto,
+    aboutPhoto: rishabhPhoto,
     title: "Website Developer | Brand Designer | UI UX Learner",
     location: "India • Available Worldwide",
     status: "Available for new projects (2026)",
