@@ -54,9 +54,9 @@ export interface FAQItem {
 
 export const portfolioData = {
   designer: {
-    name: "Rishabh",
+    name: "RISHABH",
     initials: "R",
-    shortName: "Rishabh",
+    shortName: "RISHABH",
     avatar: rishabhPhoto,
     aboutPhoto: rishabhPhoto,
     title: "Website Developer | Brand Designer | UI UX Learner",
@@ -72,7 +72,7 @@ export const portfolioData = {
     happyClients: "99+",
     projectsCompleted: "120+",
     socialLinks: {
-      instagram: "https://www.instagram.com/rishabh_developss/",
+      instagram: "https://www.instagram.com/rishabh_developss?igsi=YnVzNXdyeWxuZDk5",
       linkedin: "https://linkedin.com/in/rishabh-developer",
       behance: "https://behance.net/rishabh",
       twitter: "https://twitter.com/rishabh_dev",
@@ -175,7 +175,7 @@ export const portfolioData = {
   ],
 
   floatingTestimonial: {
-    quote: "“Rishabh’s approach is structured. He focuses on clarity before design, and that reflects in every detail. Nothing felt random.”",
+    quote: "“RISHABH’s approach is structured. He focuses on clarity before design, and that reflects in every detail. Nothing felt random.”",
     name: "Phillip B.",
     title: "CTO of INnUP",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&h=120&q=80"
@@ -363,7 +363,7 @@ export const portfolioData = {
     },
     {
       id: "t7",
-      quote: "Rishabh delivered a complete brand identity that perfectly aligned with our goals. From logo design to brand assets, every element felt intentional and polished.",
+      quote: "RISHABH delivered a complete brand identity that perfectly aligned with our goals. From logo design to brand assets, every element felt intentional and polished.",
       name: "Jake Mallard",
       role: "Marketing",
       company: "Kora",

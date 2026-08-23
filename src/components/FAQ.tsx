@@ -28,7 +28,7 @@ export const FAQ: React.FC<FAQProps> = ({ onOpenBooking }) => {
             FAQs
           </motion.h2>
 
-          {/* Small Avatar Chip labeled "Rishabh" */}
+          {/* Small Avatar Chip labeled "RISHABH" */}
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#18171A] border border-white/10 shadow-md">
             <img
               src={portfolioData.designer.avatar}

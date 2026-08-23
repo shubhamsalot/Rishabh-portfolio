@@ -240,7 +240,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
           </div>
 
           <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-neutral-500">
-            <p>© 2026 Rishabh. All rights reserved.</p>
+            <p>© 2026 RISHABH. All rights reserved.</p>
             <p className="flex items-center gap-1">
               Crafted with <span className="text-brand-red">♥</span> for visionary brands.
             </p>
